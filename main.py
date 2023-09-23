@@ -26,7 +26,7 @@ rules = {
   r'hello|hi|hey': 'Hello! How can i assist you?',
   r'bye|goodbye': 'Goodbye! Have a lovely day!',
   r'good morning|good afternoon|good evening': 'Good day! How are you doing?',
-  r'i am fine|i am okay': "Splendid!|Amazing!",
+  r'i am fine|i am okay': "Splendid!",
   r'how are you': 'I am just a chatbot, but thanks for asking!',
   r'what is your name': 'My name is ChatTAI, an Artificial Intelligence system created by Treasure Abaa.',
   r'what can you do': 'I can provide text based responses based on user inputs',
@@ -44,4 +44,4 @@ while True:
 
   response = chatbot_response(user_input, rules)
   print("Chatbot: ", response)
-  
+

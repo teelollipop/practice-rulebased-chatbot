@@ -6,6 +6,10 @@ authors = ["Your Name <you@example.com>"]
 
 [tool.poetry.dependencies]
 python = ">=3.10.0,<3.11"
+pandas = "^2.1.0"
+tabula-py = "2.8.1"
+tabulatepdf = "0.1.1"
+tabula = "1.0.5"
 
 [tool.pyright]
 # https://github.com/microsoft/pyright/blob/main/docs/configuration.md
